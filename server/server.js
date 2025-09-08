@@ -18,7 +18,7 @@ console.log('Environment loaded. PORT:', PORT);
 console.log('MongoDB URI set:', !!MONGODB_URI);
 console.log('JWT Secret set:', JWT_SECRET_SET);
 console.log('Gemini API Key set:', GEMINI_KEY_SET);
-const ALLOWED_ORIGINS = ['http://localhost:3000', 'http://127.0.0.1:3000'];
+const ALLOWED_ORIGINS = ['http://localhost:3000', 'http://127.0.0.1:3000','https://team-mind-ticw.vercel.app'];
 
 app.use(cors({
   origin: ALLOWED_ORIGINS,
