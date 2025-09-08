@@ -8,7 +8,7 @@ import EditDocument from './pages/EditDocument';
 import Search from './pages/Search';
 import QA from './pages/QA';
 import Admin from './pages/Admin';
-
+ 
 const ProtectedRoute = ({ children }) => {
   const { user, loading } = useAuth();
   

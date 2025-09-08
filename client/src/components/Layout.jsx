@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
                 <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
                   <FileText className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-xl font-bold text-gray-900">KnowledgeHub</span>
+                <span className="text-xl font-bold text-gray-900">TeamMind</span>
               </Link>
               
               <div className="hidden md:ml-10 md:flex md:space-x-8">

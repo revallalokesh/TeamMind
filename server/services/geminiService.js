@@ -61,7 +61,9 @@ class GeminiService {
       const sentences = doc.content.split(/(?<=[.!?])\s+/);
       sentences.forEach(sentence => {
         let score = questionWords.filter(qw => sentence.toLowerCase().includes(qw)).length;
-        if (score > maxScore) {
+        console.log(questionWords);
+        console.log(score);
+        if (score > maxScore){
           maxScore = score;
           bestMatch = { doc, sentence };
         }
